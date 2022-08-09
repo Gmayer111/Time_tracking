@@ -1,0 +1,487 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #0f1424;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .mainCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+}
+
+.container .mainCard .upmainCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #5746EA;
+  width: 170px;
+  height: 240px;
+  padding: 1.5rem;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.container .mainCard .upmainCard .spanName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .mainCard .upmainCard .report {
+  margin-top: 30px;
+  font-size: 0.7em;
+  color: #676AAB;
+}
+
+.container .mainCard .upmainCard .name {
+  font-size: 1.6em;
+  color: white;
+  font-weight: 300;
+}
+
+.container .mainCard img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.container .mainCard .downMainCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #1c1f4a;
+  width: 170px;
+  padding: 1.5rem;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+  bottom: 1rem;
+}
+
+.container .mainCard .downMainCard span {
+  margin-top: 0.8rem;
+}
+
+.container .mainCard .downMainCard a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #676AAB;
+  font-weight: 300;
+}
+
+.container .mainCard .downMainCard a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.container .miniCardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .miniCardContainer .miniUpContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .miniCardContainer .miniDownContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .miniCardContainer .miniCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .miniCardContainer .miniCard .upMiniCard {
+  width: 230px;
+  padding-left: 1.5em;
+  height: 60px;
+  background-color: aqua;
+  border-radius: 20px 20px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container .miniCardContainer .miniCard .upMiniCard .logoUp {
+  position: relative;
+  right: 1.5em;
+}
+
+.container .miniCardContainer .miniCard .workCard {
+  background-color: #ff8c66;
+}
+
+.container .miniCardContainer .miniCard .playCard {
+  background-color: #56c2e6;
+}
+
+.container .miniCardContainer .miniCard .studyCard {
+  background-color: #ff5c7c;
+}
+
+.container .miniCardContainer .miniCard .exerciseCard {
+  background-color: #4acf81;
+}
+
+.container .miniCardContainer .miniCard .socialCard {
+  background-color: #7536d3;
+}
+
+.container .miniCardContainer .miniCard .selfCareCard {
+  background-color: #f1c65b;
+}
+
+.container .miniCardContainer .miniCard .downMiniCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  width: 230px;
+  padding-left: 1.5em;
+  height: 160px;
+  background-color: #1c1f4a;
+  border-radius: 20px;
+  position: relative;
+  bottom: 1rem;
+}
+
+.container .miniCardContainer .miniCard .downMiniCard .genreLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .miniCardContainer .miniCard .downMiniCard .genreLogo .genre {
+  margin-top: 1rem;
+  font-size: 0.8em;
+  color: white;
+}
+
+.container .miniCardContainer .miniCard .downMiniCard .genreLogo .logo {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  padding-right: 1.5em;
+  padding-top: 1em;
+}
+
+.container .miniCardContainer .miniCard .downMiniCard .hours {
+  margin-top: 1.5rem;
+  font-size: 2em;
+  color: white;
+  font-weight: 300;
+}
+
+.container .miniCardContainer .miniCard .downMiniCard .last {
+  margin-top: 1rem;
+  font-size: 0.8em;
+  color: #676AAB;
+}
+
+.container .classHours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 90px;
+}
+
+.container .classHours .hours {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.container .classHours .last {
+  font-size: 1rem;
+  padding-right: 1rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    height: 100%;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .mainCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: auto;
+  }
+  .container .mainCard .upmainCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 280px;
+    height: 150px;
+    padding: 0;
+  }
+  .container .mainCard .upmainCard img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+  .container .mainCard .upmainCard .report {
+    margin-top: 0;
+    font-size: 0.7em;
+    color: #676AAB;
+  }
+  .container .mainCard .downMainCard {
+    width: 280px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 70px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .container .miniCardContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .container .miniCardContainer .miniUpContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .miniCardContainer .miniUpContainer .upMiniCard {
+    width: 260px;
+  }
+  .container .miniCardContainer .miniUpContainer .downMiniCard {
+    width: 260px;
+    height: 100px;
+  }
+  .container .miniCardContainer .miniUpContainer .downMiniCard .classHours {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90px;
+  }
+  .container .miniCardContainer .miniUpContainer .downMiniCard .classHours .hours {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .container .miniCardContainer .miniUpContainer .downMiniCard .classHours .last {
+    font-size: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+  }
+  .container .miniCardContainer .miniDownContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .miniCardContainer .miniDownContainer .upMiniCard {
+    width: 260px;
+  }
+  .container .miniCardContainer .miniDownContainer .downMiniCard {
+    width: 260px;
+    height: 100px;
+  }
+  .container .miniCardContainer .miniDownContainer .downMiniCard .classHours {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90px;
+  }
+  .container .miniCardContainer .miniDownContainer .downMiniCard .classHours .hours {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .container .miniCardContainer .miniDownContainer .downMiniCard .classHours .last {
+    font-size: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

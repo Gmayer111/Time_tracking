@@ -1,0 +1,358 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+
+    .mainCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        
+        .upmainCard {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: #5746EA;
+            width: 170px;
+            height: 240px;
+            padding: 1.5rem;
+            border-radius: 20px; 
+            z-index: 2;
+
+            .spanName {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            .report {
+                margin-top: 30px;
+                font-size: 0.7em;
+                color: #676AAB;
+            }
+
+            .name {
+                font-size: 1.6em;
+                color: white;
+                font-weight: 300;
+            }
+
+        }
+
+        img {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            border: 1px solid white;
+        }    
+        
+        .downMainCard {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: hsl(235, 46%, 20%);
+            width: 170px;
+            padding: 1.5rem;
+            border-radius: 0 0 20px 20px;
+            position: relative;
+            bottom: 1rem;
+
+            span {
+                margin-top: 0.8rem;
+            }
+
+            a {
+                text-decoration: none;      
+                font-size: 0.8em;    
+                color: #676AAB;
+                font-weight: 300;
+    
+            }
+    
+            a:hover {
+                color: white;
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+
+    .miniCardContainer {
+
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+        .miniUpContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .miniDownContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .miniCard {
+            display: flex;
+            flex-direction: column;
+            
+            .upMiniCard {
+                width: 230px;
+                padding-left: 1.5em;
+                height: 60px;
+                background-color: aqua;
+                border-radius: 20px 20px 0 0;
+                display: flex;
+                justify-content: flex-end;
+
+                .logoUp {
+                    position: relative;
+                    right: 1.5em;
+                }
+            }
+
+            .workCard {background-color: hsl(15, 100%, 70%);}
+            .playCard {background-color: hsl(195, 74%, 62%);}
+            .studyCard {background-color: hsl(348, 100%, 68%);}
+            .exerciseCard {background-color: hsl(145, 58%, 55%);}
+            .socialCard {background-color: hsl(264, 64%, 52%);}
+            .selfCareCard {background-color: hsl(43, 84%, 65%);}
+    
+    
+            .downMiniCard {
+                display: flex;
+                flex-direction: column;
+                align-content: flex-start;
+                width: 230px;
+                padding-left: 1.5em;
+                height: 160px;
+                background-color: hsl(235, 46%, 20%);
+                border-radius: 20px;
+                position: relative;
+                bottom: 1rem;
+
+
+
+                .genreLogo {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .genre {
+                        margin-top: 1rem;
+                        font-size: 0.8em;
+                        color: white;
+                    }                    
+
+                    .logo {
+                        align-items: flex-end;
+                        height: 100%;
+                        padding-right: 1.5em;
+                        padding-top: 1em;
+                    }
+                }
+
+                .hours {
+                    margin-top: 1.5rem;
+                    font-size: 2em;
+                    color: white;
+                    font-weight: 300;
+                }
+
+                .last {
+                    margin-top: 1rem;
+                    font-size: 0.8em;
+                    color: #676AAB;
+                }
+
+            }
+        }
+    }
+
+
+    .classHours {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 90px;
+        
+        .hours {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .last {
+            font-size: 1rem;
+            padding-right: 1rem;
+            margin: 0;
+        }
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+    body {
+        height: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .mainCard {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: auto;
+    
+            .upmainCard {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-content: center;
+                flex-wrap: wrap;
+                width: 280px;
+                height: 150px;
+                padding: 0;
+
+                img {
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 50%;
+                    border: 1px solid white;
+                }   
+                
+                .report {
+                    margin-top: 0;
+                    font-size: 0.7em;
+                    color: #676AAB;
+                }
+
+            }  
+            
+            .downMainCard {
+                width: 280px;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                height: 70px;
+                align-content: center;
+            }
+        }
+
+
+        .miniCardContainer {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+
+            .miniUpContainer {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+
+                .upMiniCard {
+                    width: 260px;
+                }
+
+                .downMiniCard {
+                    width: 260px;
+                    height: 100px;
+
+                    .classHours {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 90px;
+                        
+                        .hours {
+                            font-size: 1rem;
+                            margin: 0;
+                        }
+
+                        .last {
+                            font-size: 1rem;
+                            padding-right: 1rem;
+                            margin: 0;
+                        }
+                    }
+                    
+
+                }
+
+            }
+
+            .miniDownContainer {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+
+                .upMiniCard {
+                    width: 260px;
+                }
+
+                .downMiniCard {
+                    width: 260px;
+                    height: 100px;
+
+                    .classHours {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 90px;
+                        
+                        .hours {
+                            font-size: 1rem;
+                            margin: 0;
+                        }
+
+                        .last {
+                            font-size: 1rem;
+                            padding-right: 1rem;
+                            margin: 0;
+                        }
+                    }
+                    
+
+                }
+            }                
+        }
+    
+    }
+}  
+
+
+
+

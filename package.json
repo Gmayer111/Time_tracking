@@ -1,0 +1,20 @@
+{
+  "name": "time_tracking",
+  "version": "1.0.0",
+  "description": "![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gmayer111/Time_tracking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gmayer111/Time_tracking/issues"
+  },
+  "homepage": "https://github.com/Gmayer111/Time_tracking#readme"
+}
